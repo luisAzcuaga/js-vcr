@@ -12,7 +12,7 @@ module.exports = {
     '<rootDir>/src/**/*.{js,ts,tsx}',
     '!<rootDir>/src/**/*.spec.ts',
   ],
-  coverageReporters: ['html', 'lcov', 'text', 'text-summary'],
+  coverageReporters: ['text'],
   setupFiles: [],
   setupFilesAfterEnv: []
 };
